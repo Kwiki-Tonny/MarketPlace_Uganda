@@ -1,5 +1,8 @@
 {
   "php": {
     "extensions": ["gd", "pdo_pgsql", "pdo_mysql"]
+  },
+  "node": {
+    "version": "20"
   }
 }

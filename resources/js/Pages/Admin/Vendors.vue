@@ -2,7 +2,6 @@
 import { ref, onMounted } from 'vue';
 import AdminLayout from '@/Layouts/AdminLayout.vue';
 import { router, usePage, Link } from '@inertiajs/vue3';
-import { Link } from '@inertiajs/vue3';
 import axios from 'axios';
 import { Trash2, AlertCircle, CheckCircle, Clock } from 'lucide-vue-next';
 

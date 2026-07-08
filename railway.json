@@ -1,0 +1,5 @@
+{
+  "build": {
+    "phpExtensions": ["gd", "pdo_pgsql", "pdo_mysql"]
+  }
+}

@@ -1,5 +1,10 @@
 {
   "build": {
-    "phpExtensions": ["gd", "pdo_pgsql", "pdo_mysql"]
+    "builder": "NIXPACKS",
+    "buildCommand": "npm install && npm run build && composer install --no-dev --optimize-autoloader"
+  },
+  "deploy": {
+    "startCommand": "php artisan serve --host=0.0.0.0 --port=${PORT}",
+    "healthcheckPath": "/"
   }
 }
